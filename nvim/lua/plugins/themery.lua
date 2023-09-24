@@ -1,3 +1,4 @@
+local colorscheme = require("plugins.colorscheme")
 return {
   "zaldih/themery.nvim",
 
@@ -42,25 +43,41 @@ return {
           colorscheme = "gruvbox-baby",
         },
         {
-          name = "Neom Doom",
+          name = "Neon Doom",
           colorscheme = "neon",
           before = [[
           vim.g.neon_style = "doom"
           ]],
         },
         {
-          name = "Neom Dark",
+          name = "Neon Dark",
           colorscheme = "neon",
           before = [[
           vim.g.neon_style = "dark"
           ]],
         },
         {
-          name = "Neom Light",
+          name = "Neon Light",
           colorscheme = "neon",
           before = [[
           vim.g.neon_style = "light"
           ]],
+        },
+        {
+          name = "Nightfox",
+          colorscheme = "nightfox",
+        },
+        {
+          name = "Everblush",
+          colorscheme = "everblush",
+        },
+        {
+          name = "Omni",
+          colorscheme = "omni",
+        },
+        {
+          name = "OceanicNext",
+          colorscheme = "OceanicNext",
         },
       },
       themeConfigFile = "~/.config/nvim/lua/config/theme.lua",

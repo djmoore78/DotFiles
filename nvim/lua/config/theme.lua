@@ -1,8 +1,5 @@
 -- Themery block
 -- This block will be replaced by Themery.
-vim.g.neon_style = "dark"
-
-
-vim.cmd("colorscheme neon")
-vim.g.theme_id = 11
+vim.cmd("colorscheme nightfox")
+vim.g.theme_id = 13
 -- end themery block
